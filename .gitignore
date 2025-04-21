@@ -1,0 +1,4 @@
+.flask
+
+*.pyc
+__pycache__
