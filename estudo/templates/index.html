@@ -13,6 +13,9 @@
 
     <div>
         <p>Bem vindos a aula de Flask!!</p>
+        <a href="{{url_for('novapag')}}">Link para nova página por Função</a> <!--# link para nova página (DEFINIDA PELA FUNÇÃO E NÃO PELO NOME DA ROTA!!). Pois se o nome da rota mudar, não vai ter alteração, porque a função é a mesma.-->
+        <br>
+        <a href='/nova/'>Link para nova página diretamente pela Rota</a>
     </div>
 
 </body>

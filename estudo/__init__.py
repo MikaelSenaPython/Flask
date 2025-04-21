@@ -1,4 +1,4 @@
-# CONEXÃO DAS ROTAS COM O ARQUIVO PRINCIPAL(main.py)
+# CONEXÃO DA ROTA PRINCIPAL COM O ARQUIVO PRINCIPAL(main.py)
 from flask import Flask
 
 app = Flask(__name__)
